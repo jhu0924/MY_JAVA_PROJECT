@@ -20,24 +20,15 @@ public class Workshop04 {
         System.out.println( " 3. 베이글   1500원" );
         System.out.println( " 4. 크림치즈   500원\n" );
         
-
-        
         System.out.println( "========= 주문 =========" );
         System.out.print( " 아메리카노 주문 수량 : " );
-        int americano = getUserInput();
-        int amePrice = americano * 2000;
         
         System.out.print( " 카페라떼 주문 수량 : " );
-        int latte = getUserInput();
-        int lattePrice = latte * 3000;
-        		
+        
         System.out.print( " 베이글 주문 수량 : " );
-        int bagel = getUserInput();
-        int bagelPrice = bagel * 1500;
         
         System.out.print( " 크림치즈 주문 수량 : " );
-        int creamcheese = getUserInput();
-        int creamPrice = creamcheese * 500;
+        
     }
     
     public static int getUserInput() {

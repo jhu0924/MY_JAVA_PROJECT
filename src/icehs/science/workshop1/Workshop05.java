@@ -13,26 +13,18 @@ public class Workshop05 {
     public static void main( String[] args ) {
         
         System.out.print( "Computer Science 성적을 입력하세요 : " );
-        double computer = getUserInput();
         
         System.out.print( "Java Programming 성적을 입력하세요 : " );
-        double java = getUserInput();
         
         System.out.print( "공학수학 성적을 입력하세요 : " );
-        double enginemath = getUserInput();
         
         System.out.print( "오페라의 이해 성적을 입력하세요 : " );
-        double opera = getUserInput();
         
         System.out.print( "배드민턴 성적을 입력하세요 : " );
-        double badminton = getUserInput();
         
         System.out.println( "==============================" );
         
-        System.out.println( "평점은 "+ gpa +"점 입니다." );
-        if(gpa >= 3.7 && computer > 2.5 ) {
-        	System.out.println("다음 학기 장학금 대상자입니다.");
-        }
+        System.out.println( "평점은 100점 입니다." );
     }
     
     public static double getUserInput() {
