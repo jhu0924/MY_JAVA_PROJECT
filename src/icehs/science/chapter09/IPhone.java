@@ -5,4 +5,17 @@ public class IPhone extends Mobile {
 	public IPhone() {
 		super("IPhone");
 	}
+	
+	@Override
+	public void chaarge(int time) {
+		System.out.println("IPhone : " + time + "분 충전했더니 FULL");
+	}
+
+	public String getColor() {
+		return Color;
+	}
+
+	public void setColor(String color) {
+		Color = color;
+	}
 }
